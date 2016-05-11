@@ -19,5 +19,6 @@ jdk:
  script:
  - "./hello world"
  - go test -v ./...
+ -npm test
  after_failure:
     - email
