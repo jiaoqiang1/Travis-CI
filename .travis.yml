@@ -16,7 +16,6 @@ language: c
 install:
     - make 
 
-script:
     - "./hello world"
 
 after_failure:
@@ -32,3 +31,6 @@ go:
 
 script:
  - go test -v ./...
+  - "./hello world"
+ -npm test
+ -ant test
